@@ -1,0 +1,37 @@
+body{
+    background:url('https://wpapers.ru/wallpapers/nature/Landscapes/9278/2560x1440_%D0%97%D0%B5%D0%BB%D1%91%D0%BD%D0%BE%D0%B5-%D0%BF%D0%BE%D0%BB%D0%B5.jpg');
+
+}
+.pagination>li>a, .pagination>li>span { 
+	border-radius: 50% !important;margin: 0 5px;
+	position:relative;
+	left:500px;
+}
+.thumbnail {
+	padding:0px;
+}
+.panel {
+	position:relative;
+}
+.panel>.panel-heading:after,.panel>.panel-heading:before{
+	position:absolute;
+	top:11px;left:-16px;
+	right:100%;
+	width:0;
+	height:0;
+	display:block;
+	content:" ";
+	border-color:transparent;
+	border-style:solid solid outset;
+	pointer-events:none;
+}
+.panel>.panel-heading:after{
+	border-width:7px;
+	border-right-color:#f7f7f7;
+	margin-top:1px;
+	margin-left:2px;
+}
+.panel>.panel-heading:before{
+	border-right-color:#ddd;
+	border-width:8px;
+}
